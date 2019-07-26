@@ -132,7 +132,7 @@ public class MessageFrame {
    * <h3>Message Execution Failed ({@link #COMPLETED_FAILED})</h3>
    *
    * <p>The message execution failed to execute successfully; most likely due to encountering an
-   * exceptoinal halting condition. At this point the message frame is finalized and the parent is
+   * exceptional halting condition. At this point the message frame is finalized and the parent is
    * notified.
    *
    * <h3>Message Execution Completed Successfully ({@link #COMPLETED_SUCCESS})</h3>
