@@ -309,7 +309,7 @@ public class MessageFrame {
     this.pc = pc;
   }
 
-  /** Deducts the remainging gas. */
+  /** Deducts the remaining gas. */
   public void clearGasRemaining() {
     this.gasRemaining = Gas.ZERO;
   }
@@ -344,7 +344,7 @@ public class MessageFrame {
   /**
    * Set the amount of remaining gas.
    *
-   * @param amount The amount of remainging gas
+   * @param amount The amount of remaining gas
    */
   public void setGasRemaining(final Gas amount) {
     this.gasRemaining = amount;
